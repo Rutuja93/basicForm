@@ -1,0 +1,113 @@
+.formParent {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.formGroup {
+	width: 30%;
+	padding: 20px 30px;
+	border: 1px solid #CCC;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	background: #fff;
+}
+
+.formTitle {
+	font-size: 15px;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+
+.formSubTitle {
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+.eEmail {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+}
+
+.pPwd {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+}
+
+.nextBtn {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	border: 0 none;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px 5px;
+	margin: 10px 5px;
+	cursor: pointer;
+}
+
+.nextBtn:hover {
+	background: #ff9800;
+}
+
+.error {
+	display: flex;
+	color: #ff0000;
+	margin: -10px 0px 10px 0px;
+}
+
+.nName {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+}
+
+.mNumber {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+}
+
+.mNumber::-webkit-inner-spin-button,
+.mNumber::-webkit-outer-spin-button {
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+
+.prevBtn {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	border: 0 none;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px 5px;
+	margin: 10px 5px;
+	cursor: pointer;
+}
+
+.subBtn {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	border: 0 none;
+	border-radius: 5px;
+	color: #fff;
+	padding: 10px 5px;
+	margin: 10px 5px;
+	cursor: pointer;
+}
+
+.prevBtn:hover, .subBtn:hover {
+	background: #ff9800;
+}
